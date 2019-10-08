@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Up and Running Fast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <script src="myscripts.js"></script>
+    <style>
+            @import url('https://fonts.googleapis.com/css?family=Quintessential&display=swap&subset=latin-ext');
+            </style>
+</head>
+<body>
+    <header>
+        <div class="branding">
+        <p>The Journal for WebDevelopment and Coding</p>
+        </div>
+    </header>
+    <nav>
+
+    </nav>
+    <section>
+    <form> 
+        <fieldset for="purposeVisit">        
+        <legend>What are you here for?</legend>     
+        <label for="code">
+        <input type="radio" id="code" name="purposeVisit" onclick="ShowHideDiv()" />learn to code</label><br>
+        <label for="recruitment">
+        <input type="radio" id="recruitment" name="purposeVisit" onclick="ShowHideDiv()" />profile view for recruitment</label><br>
+    
+        <label for="chkYes">
+        <input type="radio" id="chkYes" name="purposeVisit" onclick="ShowHideDiv()" />none of the above</label><br>
+        </fieldset>
+        <div id="dvtext" style="display: none">Fill me in on how I can help you:
+            <input type="text" id="txtBox" />
+            </div>
+        
+    </form>    
+    </section>
+    <a href="2019 Web Development BootCamp Notes.html">2019 Web Development</a>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
